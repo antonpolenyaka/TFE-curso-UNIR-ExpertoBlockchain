@@ -744,7 +744,7 @@
   "sourceMap": "60:539:7:-:0;;;162:51;;;;;;;;;-1:-1:-1;187:5:7;:18;;-1:-1:-1;;;;;;187:18:7;195:10;187:18;;;60:539;;;;;;",
   "deployedSourceMap": "60:539:7:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;418:178;;;;;;:::i;:::-;;:::i;:::-;;114:39;;;;;;;;;451:25:26;;;439:2;424:18;114:39:7;;;;;;;;87:20;;;;;-1:-1:-1;;;;;87:20:7;;;;;;-1:-1:-1;;;;;651:32:26;;;633:51;;621:2;606:18;87:20:7;487:203:26;296:114:7;;;;;;:::i;:::-;;:::i;418:178::-;272:5;;-1:-1:-1;;;;;272:5:7;258:10;:19;254:26;;563:24:::1;::::0;541:47:::1;::::0;-1:-1:-1;;;541:47:7;;518:11;;-1:-1:-1;;;;;541:21:7;::::1;::::0;::::1;::::0;:47:::1;::::0;::::1;;451:25:26::0;;;439:2;424:18;;305:177;541:47:7::1;;;;;;;;;;;;;;;;;;::::0;::::1;;;;;;;;;;;;::::0;::::1;;;;;;;;;474:122;254:26:::0;418:178;:::o;296:114::-;272:5;;-1:-1:-1;;;;;272:5:7;258:10;:19;254:26;;366:24:::1;:36:::0;296:114::o;14:286:26:-;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;168:23;;-1:-1:-1;;;;;220:31:26;;210:42;;200:70;;266:1;263;256:12;200:70;289:5;14:286;-1:-1:-1;;;14:286:26:o;695:180::-;754:6;807:2;795:9;786:7;782:23;778:32;775:52;;;823:1;820;813:12;775:52;-1:-1:-1;846:23:26;;695:180;-1:-1:-1;695:180:26:o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.15;\r\n\r\ncontract Migrations {\r\n    address public owner;\r\n    uint256 public last_completed_migration;\r\n\r\n    constructor() {\r\n        owner = msg.sender;\r\n    }\r\n\r\n    modifier restricted() {\r\n        if (msg.sender == owner) _;\r\n    }\r\n\r\n    function setCompleted(uint256 completed) public restricted {\r\n        last_completed_migration = completed;\r\n    }\r\n\r\n    function upgrade(address new_address) public restricted {\r\n        Migrations upgraded = Migrations(new_address);\r\n        upgraded.setCompleted(last_completed_migration);\r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\GitHub\\estudios\\Curso Experto Universitario en Desarrollo de Aplicaciones Blockchain en UNIR\\Trabajo Final de Experto (BLO) - PER6061 2022-2023\\app\\src\\contracts\\Migrations.sol",
+  "sourcePath": "C:\\GitHub\\TFE-curso-UNIR-ExpertoBlockchain\\src\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1388,12 +1388,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x3a9C1Abd7acDB119B7a4D9cfaeDDC0E2F509dC61",
-      "transactionHash": "0xdc32796fdf794fe9c0d893cab79b7bfb34860d5bb5a15950d8cc6b70b2fd002a"
+      "address": "0x447eD53182f1955c51a01bf2938da73199883023",
+      "transactionHash": "0x42e86dddf7492932bb2efb17a420a913150f815dde8421ffd71768aed3f21b13"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-04T08:56:54.482Z",
+  "updatedAt": "2022-07-04T16:01:53.357Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

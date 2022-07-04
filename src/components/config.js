@@ -1,6 +1,6 @@
-export const FumigationDronTokenAddress = "0x8402f5Bd922343e73CA6De6518c26cF65bDe101A";
-export const DronAddress = "0xBc94ad08A14509a9d496aa51b6E1888dAeb4c9C3";
-export const PlotAddress = "0xF8D205E8b8dF0b7E2956838d9ddB418444E3ff7D";
-export const WorksAddress = "0xE5F30ca47bA90226FA4767d0166Ebc12dfB40a31";
+export const FumigationDronTokenAddress = "0x9e47E1319A4CaC45fddfd703131562703a6afec4";
+export const DronAddress = "0xd5fA36e342541Dd721B172d3FBEE5cD2eE0fE2Af";
+export const PlotAddress = "0x847Ffd8fA70645B8430ae6676071f8693e23fD8b";
+export const WorksAddress = "0xF00035bF13D8Ef1880CA5432bf7aDcA61c9D8e0f";
 export const NetworkIdToUse = 5777;
 export const TokenDecimals = 2;

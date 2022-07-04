@@ -10,7 +10,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.15;\r\n\r\ninterface IPesticides {\r\n    enum Pesticides {\r\n        Pesticide_A,\r\n        Pesticide_B,\r\n        Pesticide_C,\r\n        Pesticide_D,\r\n        Pesticide_E\r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\GitHub\\estudios\\Curso Experto Universitario en Desarrollo de Aplicaciones Blockchain en UNIR\\Trabajo Final de Experto (BLO) - PER6061 2022-2023\\app\\src\\contracts\\IPesticides.sol",
+  "sourcePath": "C:\\GitHub\\TFE-curso-UNIR-ExpertoBlockchain\\src\\contracts\\IPesticides.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/IPesticides.sol",
     "exportedSymbols": {
@@ -106,7 +106,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-04T08:56:47.242Z",
+  "updatedAt": "2022-07-04T16:01:44.019Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

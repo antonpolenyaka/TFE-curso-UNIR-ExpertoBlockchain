@@ -171,7 +171,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.15;\r\n\r\nimport \"./IPesticides.sol\";\r\n\r\ninterface IDron is IPesticides {\r\n    // =============================== Structs & Enums ============================================\r\n\r\n    struct DronInfo {\r\n        uint256 id;\r\n        string name;\r\n        uint256 minimumFlightHeight;\r\n        uint256 maximumFlightHeight;\r\n        uint256 price;\r\n        Pesticides pesticide;\r\n    }\r\n\r\n    // =============================== Events =============================================\r\n\r\n    event NewDronAdded(address owner, uint256 dronId);\r\n\r\n    // =============================== Methods ============================================\r\n\r\n    function addDron(\r\n        string memory name_,\r\n        uint256 maxHeight_,\r\n        uint256 minHeight_,\r\n        uint256 price_,\r\n        Pesticides pesticide_\r\n    ) external;\r\n\r\n    function getDronOwner(uint256 dronId_) external view returns (address);\r\n\r\n    function checkDronExist(uint256 dronId_) external view returns (bool);\r\n\r\n    function getDronWorkPrice(uint256 dronId_) external view returns (uint256);\r\n\r\n    function getDronInfo(uint256 dronId_)\r\n        external\r\n        view\r\n        returns (DronInfo memory);\r\n}\r\n",
-  "sourcePath": "C:\\GitHub\\estudios\\Curso Experto Universitario en Desarrollo de Aplicaciones Blockchain en UNIR\\Trabajo Final de Experto (BLO) - PER6061 2022-2023\\app\\src\\contracts\\IDron.sol",
+  "sourcePath": "C:\\GitHub\\TFE-curso-UNIR-ExpertoBlockchain\\src\\contracts\\IDron.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/IDron.sol",
     "exportedSymbols": {
@@ -1015,7 +1015,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-04T08:56:47.239Z",
+  "updatedAt": "2022-07-04T16:01:44.016Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

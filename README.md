@@ -101,3 +101,7 @@ npm install --save-dev surya
     $ surya inheritance contracts MetaCoin.sol | dot Tpng > MetaCoin.png
     graph: Genera un gráfico con el flujo de control
     $ surya graph contracts MetaCoin.sol | dot Tpng > MetaCoin.png
+
+# Diagramas
+# sol2uml
+sol2uml src/contracts -f png -o ClassDiagram.png -i Migrations.sol

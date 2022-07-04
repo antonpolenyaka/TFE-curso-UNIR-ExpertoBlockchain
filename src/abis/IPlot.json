@@ -123,7 +123,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.15;\r\n\r\nimport \"./IPesticides.sol\";\r\n\r\ninterface IPlot is IPesticides {\r\n    // =============================== Structs & Enums ============================================\r\n\r\n    struct PlotInfo {\r\n        uint256 id;\r\n        string name;\r\n        uint256 allowedMaximumFlightHeight;\r\n        uint256 allowedMinimumFlightHeight;\r\n        Pesticides allowedPesticide;\r\n    }\r\n\r\n    // =============================== Events =============================================\r\n\r\n    event NewPlotAdded(address owner, uint256 plotId);\r\n\r\n    // =============================== Methods ============================================\r\n\r\n    function addPlot(\r\n        string memory name_,\r\n        uint256 minHeight_,\r\n        uint256 maxHeight_,\r\n        Pesticides pesticide_\r\n    ) external;\r\n\r\n    function getPlotOwner(uint256 plotId_) external view returns (address);\r\n\r\n    function getPlotInfo(uint256 plotId_)\r\n        external\r\n        view\r\n        returns (PlotInfo memory);\r\n}\r\n",
-  "sourcePath": "C:\\GitHub\\estudios\\Curso Experto Universitario en Desarrollo de Aplicaciones Blockchain en UNIR\\Trabajo Final de Experto (BLO) - PER6061 2022-2023\\app\\src\\contracts\\IPlot.sol",
+  "sourcePath": "C:\\GitHub\\TFE-curso-UNIR-ExpertoBlockchain\\src\\contracts\\IPlot.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/IPlot.sol",
     "exportedSymbols": {
@@ -747,7 +747,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-04T08:56:47.244Z",
+  "updatedAt": "2022-07-04T16:01:44.020Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -136,7 +136,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.15;\r\n\r\ninterface IFumigationDronToken {\r\n    // =============================== Events =============================================\r\n\r\n    event TokensBuyed(address wallet, uint256 amount);\r\n    event TokensReturned(\r\n        address wallet,\r\n        uint256 tokensSelled,\r\n        uint256 etherReturned\r\n    );\r\n\r\n    // =============================== Methods ============================================\r\n\r\n    function tokenPrice(uint256 amount) external pure returns (uint256);\r\n\r\n    function buy(uint256 amount) external payable;\r\n\r\n    function sell(uint256 amount) external payable;\r\n\r\n    function transferFromTo(\r\n        address sender,\r\n        address receiver,\r\n        uint256 amount\r\n    ) external;\r\n\r\n    function myBalance() external view returns (uint256);\r\n}\r\n",
-  "sourcePath": "C:\\GitHub\\estudios\\Curso Experto Universitario en Desarrollo de Aplicaciones Blockchain en UNIR\\Trabajo Final de Experto (BLO) - PER6061 2022-2023\\app\\src\\contracts\\IFumigationDronToken.sol",
+  "sourcePath": "C:\\GitHub\\TFE-curso-UNIR-ExpertoBlockchain\\src\\contracts\\IFumigationDronToken.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/IFumigationDronToken.sol",
     "exportedSymbols": {
@@ -720,7 +720,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-04T08:56:47.241Z",
+  "updatedAt": "2022-07-04T16:01:44.018Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

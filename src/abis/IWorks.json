@@ -180,7 +180,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.15;\r\n\r\ninterface IWorks {\r\n    // =============================== Structs & Enums ============================================\r\n\r\n    struct WorkInfo {\r\n        uint256 id;\r\n        uint256 plotId;\r\n        uint256 dronId;\r\n        uint256 tokensToPay;\r\n        uint256 timestampCreate;\r\n        uint256 timestampWorkFinished;\r\n        bool payed;\r\n    }\r\n\r\n    // =============================== Events =============================================\r\n\r\n    event PlotAlreadyFumigated(\r\n        uint256 plotId_,\r\n        uint256 dronId_,\r\n        uint256 tokensPayed_\r\n    );\r\n    event NewWorkAdded(uint256 plotId_, uint256 dronId_, uint256 tokensToPay_);\r\n\r\n    // =============================== Methods ============================================\r\n\r\n    function addWork(uint256 plotId_, uint256 dronId_) external;\r\n\r\n    function getNotFinishedWorks(address managerFirm_)\r\n        external\r\n        returns (uint256[] memory);\r\n\r\n    function doFumigationWork(uint256 workId_) external;\r\n\r\n    function balanceTokens() external view returns (uint256);\r\n\r\n    function getWorkInfo(uint256 workId_)\r\n        external\r\n        view\r\n        returns (WorkInfo memory);\r\n}\r\n",
-  "sourcePath": "C:\\GitHub\\estudios\\Curso Experto Universitario en Desarrollo de Aplicaciones Blockchain en UNIR\\Trabajo Final de Experto (BLO) - PER6061 2022-2023\\app\\src\\contracts\\IWorks.sol",
+  "sourcePath": "C:\\GitHub\\TFE-curso-UNIR-ExpertoBlockchain\\src\\contracts\\IWorks.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/IWorks.sol",
     "exportedSymbols": {
@@ -1007,7 +1007,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-04T08:56:47.268Z",
+  "updatedAt": "2022-07-04T16:01:44.022Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
