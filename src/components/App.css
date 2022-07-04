@@ -1,0 +1,20 @@
+/* Los estilos estaran en esta hoja */
+
+.btn-violet {
+    color: #fff;
+    background-color: #6435c9!important;
+    border-color: #6435c9!important;
+}
+
+.txt-h-start {
+    text-align: start!important;
+}
+
+.div-warning {
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}

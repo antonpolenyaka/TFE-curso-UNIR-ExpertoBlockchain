@@ -1,0 +1,120 @@
+{
+  "contractName": "IPesticides",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/IPesticides.sol\":\"IPesticides\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":0},\"remappings\":[]},\"sources\":{\"project:/src/contracts/IPesticides.sol\":{\"keccak256\":\"0xa117e169ecdfe06d177dada15839b96003b2f7a5a18cf5cf2cf1d2424c8b7e4c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://25db854bb659e22cdf378dcdae11023f6beaec54020d00d9d0f31fdf6ec73637\",\"dweb:/ipfs/QmV8xjb9ch5eHmKgp4rsSMxce2gzEXovEhiE84B5KXz3Cz\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.15;\r\n\r\ninterface IPesticides {\r\n    enum Pesticides {\r\n        Pesticide_A,\r\n        Pesticide_B,\r\n        Pesticide_C,\r\n        Pesticide_D,\r\n        Pesticide_E\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\GitHub\\estudios\\Curso Experto Universitario en Desarrollo de Aplicaciones Blockchain en UNIR\\Trabajo Final de Experto (BLO) - PER6061 2022-2023\\app\\src\\contracts\\IPesticides.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/IPesticides.sol",
+    "exportedSymbols": {
+      "IPesticides": [
+        516
+      ]
+    },
+    "id": 517,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 509,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".15"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IPesticides",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": true,
+        "id": 516,
+        "linearizedBaseContracts": [
+          516
+        ],
+        "name": "IPesticides",
+        "nameLocation": "70:11:4",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "IPesticides.Pesticides",
+            "id": 515,
+            "members": [
+              {
+                "id": 510,
+                "name": "Pesticide_A",
+                "nameLocation": "116:11:4",
+                "nodeType": "EnumValue",
+                "src": "116:11:4"
+              },
+              {
+                "id": 511,
+                "name": "Pesticide_B",
+                "nameLocation": "138:11:4",
+                "nodeType": "EnumValue",
+                "src": "138:11:4"
+              },
+              {
+                "id": 512,
+                "name": "Pesticide_C",
+                "nameLocation": "160:11:4",
+                "nodeType": "EnumValue",
+                "src": "160:11:4"
+              },
+              {
+                "id": 513,
+                "name": "Pesticide_D",
+                "nameLocation": "182:11:4",
+                "nodeType": "EnumValue",
+                "src": "182:11:4"
+              },
+              {
+                "id": 514,
+                "name": "Pesticide_E",
+                "nameLocation": "204:11:4",
+                "nodeType": "EnumValue",
+                "src": "204:11:4"
+              }
+            ],
+            "name": "Pesticides",
+            "nameLocation": "94:10:4",
+            "nodeType": "EnumDefinition",
+            "src": "89:133:4"
+          }
+        ],
+        "scope": 517,
+        "src": "60:165:4",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:194:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-07-04T08:56:47.242Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
