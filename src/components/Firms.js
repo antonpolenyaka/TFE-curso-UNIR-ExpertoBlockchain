@@ -154,7 +154,7 @@ class Firms extends Component {
                     console.debug("eventCatchNewDronAdded.data", event);
                     const ownerReceive = event.returnValues.owner;
                     const dronIdReceive = event.returnValues.dronId;
-                    alert(`Nueva parcela dada de alta con identificador #${dronIdReceive}! Propietario: ${ownerReceive}.`);
+                    alert(`Nuevo dron dado de alta con identificador #${dronIdReceive}! Propietario: ${ownerReceive}.`);
                 }
             })
             .on('changed', changed => console.debug("eventCatchNewDronAdded.changed", changed))
